@@ -1,0 +1,523 @@
+[Root]
+Most Recent Package=Standard Setup Package 4
+
+
+[Package|Standard Setup Package 1|Root]
+SubWizProgID=PDWizard.SetupPkgSubWiz
+BuildFolder=D:\Ethernet_Wiznet\Ethernet_V3.0\Configure_V3.00\Package
+
+[Package|Standard Setup Package 1|Configure DAO ISAMs]
+Applicable=No
+
+[Package|Standard Setup Package 1|Configure DAO ODBC]
+JetWorkspace=
+ODBCDirect=
+
+[Package|Standard Setup Package 1|Files Found]
+
+[Package|Standard Setup Package 1|Files Released]
+
+[Package|Standard Setup Package 1|Missing Dependency Information]
+D:\Ethernet_Wiznet\Ethernet_V3.0\VB6KO.DLL=
+
+[Package|Standard Setup Package 1|Out-of-Date Dependency Information]
+
+[Package|Standard Setup Package 1|Files Added]
+D:\Ethernet_Wiznet\Ethernet_V3.0\VB6KO.DLL=
+
+[Package|Standard Setup Package 1|Files Removed]
+
+[Package|Standard Setup Package 1|Files In Project]
+D:\Ethernet_Wiznet\Ethernet_V3.0\Configure_V3.00\Configure_V3.00.exe=Yes
+C:\WINDOWS\system32\msvbvm60.dll=Yes
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\OLEAUT32.DLL=Yes
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\OLEPRO32.DLL=Yes
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\ASYCFILT.DLL=Yes
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\STDOLE2.TLB=Yes
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\COMCAT.DLL=Yes
+C:\WINDOWS\system32\MSWINSCK.OCX=Yes
+C:\WINDOWS\system32\COMCT332.OCX=Yes
+C:\WINDOWS\system32\MSCOMCT2.OCX=Yes
+C:\WINDOWS\system32\MSCOMCTL.OCX=Yes
+C:\WINDOWS\system32\COMDLG32.OCX=Yes
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\SETUP.EXE=Yes
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\SETUP1.EXE=Yes
+C:\WINDOWS\system32\VB6STKIT.DLL=Yes
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\ST6UNST.EXE=Yes
+D:\Ethernet_Wiznet\Ethernet_V3.0\VB6KO.DLL=Yes
+
+[Package|Standard Setup Package 1|Configure Registry Files]
+Applicable=No
+
+[Package|Standard Setup Package 1|Configure Remote Servers]
+Applicable=No
+
+[Package|Standard Setup Package 1|Install Locations]
+D:\Ethernet_Wiznet\Ethernet_V3.0\Configure_V3.00\Configure_V3.00.exe=$(AppPath)
+C:\WINDOWS\system32\msvbvm60.dll=$(WinSysPathSysFile)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\OLEAUT32.DLL=$(WinSysPathSysFile)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\OLEPRO32.DLL=$(WinSysPathSysFile)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\ASYCFILT.DLL=$(WinSysPathSysFile)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\STDOLE2.TLB=$(WinSysPathSysFile)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\COMCAT.DLL=$(WinSysPathSysFile)
+C:\WINDOWS\system32\MSWINSCK.OCX=$(WinSysPath)
+C:\WINDOWS\system32\COMCT332.OCX=$(WinSysPath)
+C:\WINDOWS\system32\MSCOMCT2.OCX=$(WinSysPath)
+C:\WINDOWS\system32\MSCOMCTL.OCX=$(WinSysPath)
+C:\WINDOWS\system32\COMDLG32.OCX=$(WinSysPath)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\SETUP.EXE=$(AppPath)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\SETUP1.EXE=$(WinPath)
+C:\WINDOWS\system32\VB6STKIT.DLL=$(WinSysPathSysFile)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\ST6UNST.EXE=$(WinPath)
+D:\Ethernet_Wiznet\Ethernet_V3.0\VB6KO.DLL=$(WinSysPath)
+
+[Package|Standard Setup Package 1|Configure Shared Files]
+Applicable=Yes
+D:\Ethernet_Wiznet\Ethernet_V3.0\Configure_V3.00\Configure_V3.00.exe=Yes
+
+[Package|Standard Setup Package 1|Distribution]
+Type=single
+Size=1.44 MB
+Title=Configure Program
+
+[Package|Standard Setup Package 1|IconGroups]
+Group0=Configure Program
+PrivateGroup0=-1
+Parent0=$(Programs)
+
+[Package|Standard Setup Package 1|Configure Program]
+Icon1=Configure_V3.00.exe
+Title1=Configure Program
+StartIn1=$(AppPath)
+Key1=Icon1
+
+[Package|Standard Setup Package 1|Package]
+PackageFolder=D:\Ethernet_Wiznet\Ethernet_V3.0\Configure_V3.00\Package
+ProjectFolder=D:\Ethernet_Wiznet\Ethernet_V3.0\Configure_V3.00
+ServerSideCab=
+File1=D:\Ethernet_Wiznet\Ethernet_V3.0\Configure_V3.00\Package\setup.exe
+File2=D:\Ethernet_Wiznet\Ethernet_V3.0\Configure_V3.00\Package\Setup.Lst
+File3=D:\Ethernet_Wiznet\Ethernet_V3.0\Configure_V3.00\Package\Configure_V3.00.CAB
+Handler1=PDWizard.FolderDplySubWiz
+Handler2=PDWizard.WebPostDplySubWiz
+
+
+[Package|Standard Setup Package 2|Configure]
+Icon1=Configure_V3.00.exe
+Title1=Configure
+StartIn1=$(AppPath)
+Key1=Icon1
+
+[Package|Standard Setup Package 2|Root]
+SubWizProgID=PDWizard.SetupPkgSubWiz
+BuildFolder=D:\Ethernet_Wiznet\Ethernet_V3.0\Configure_V3.00\Configure
+
+[Package|Standard Setup Package 2|Configure DAO ISAMs]
+Applicable=No
+
+[Package|Standard Setup Package 2|Configure DAO ODBC]
+JetWorkspace=
+ODBCDirect=
+
+[Package|Standard Setup Package 2|Files Found]
+VB6KO.DLL=D:\Ethernet_Wiznet\Ethernet_V3.0\Configure_V3.00\VB6KO.DLL
+
+[Package|Standard Setup Package 2|Files Released]
+
+[Package|Standard Setup Package 2|Missing Dependency Information]
+
+[Package|Standard Setup Package 2|Out-of-Date Dependency Information]
+
+[Package|Standard Setup Package 2|Files Added]
+d:\ethernet_wiznet\ethernet_v3.0\configure_v3.00\progress.avi=
+d:\ethernet_wiznet\ethernet_v3.0\configure_v3.00\vb6ko.dll=
+
+[Package|Standard Setup Package 2|Files Removed]
+
+[Package|Standard Setup Package 2|Files In Project]
+D:\Ethernet_Wiznet\Ethernet_V3.0\Configure_V3.00\Configure_V3.00.exe=Yes
+C:\WINDOWS\system32\msvbvm60.dll=Yes
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\OLEAUT32.DLL=Yes
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\OLEPRO32.DLL=Yes
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\ASYCFILT.DLL=Yes
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\STDOLE2.TLB=Yes
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\COMCAT.DLL=Yes
+C:\WINDOWS\system32\MSWINSCK.OCX=Yes
+C:\WINDOWS\system32\COMCT332.OCX=Yes
+C:\WINDOWS\system32\MSCOMCT2.OCX=Yes
+C:\WINDOWS\system32\MSCOMCTL.OCX=Yes
+C:\WINDOWS\system32\COMDLG32.OCX=Yes
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\SETUP.EXE=Yes
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\SETUP1.EXE=Yes
+C:\WINDOWS\system32\VB6STKIT.DLL=Yes
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\ST6UNST.EXE=Yes
+D:\Ethernet_Wiznet\Ethernet_V3.0\Configure_V3.00\progress.avi=Yes
+D:\Ethernet_Wiznet\Ethernet_V3.0\Configure_V3.00\VB6KO.DLL=Yes
+
+[Package|Standard Setup Package 2|Configure Registry Files]
+Applicable=No
+
+[Package|Standard Setup Package 2|Configure Remote Servers]
+Applicable=No
+
+[Package|Standard Setup Package 2|Install Locations]
+D:\Ethernet_Wiznet\Ethernet_V3.0\Configure_V3.00\Configure_V3.00.exe=$(AppPath)
+C:\WINDOWS\system32\msvbvm60.dll=$(WinSysPathSysFile)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\OLEAUT32.DLL=$(WinSysPathSysFile)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\OLEPRO32.DLL=$(WinSysPathSysFile)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\ASYCFILT.DLL=$(WinSysPathSysFile)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\STDOLE2.TLB=$(WinSysPathSysFile)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\COMCAT.DLL=$(WinSysPathSysFile)
+C:\WINDOWS\system32\MSWINSCK.OCX=$(WinSysPath)
+C:\WINDOWS\system32\COMCT332.OCX=$(WinSysPath)
+C:\WINDOWS\system32\MSCOMCT2.OCX=$(WinSysPath)
+C:\WINDOWS\system32\MSCOMCTL.OCX=$(WinSysPath)
+C:\WINDOWS\system32\COMDLG32.OCX=$(WinSysPath)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\SETUP.EXE=$(AppPath)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\SETUP1.EXE=$(WinPath)
+C:\WINDOWS\system32\VB6STKIT.DLL=$(WinSysPathSysFile)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\ST6UNST.EXE=$(WinPath)
+D:\Ethernet_Wiznet\Ethernet_V3.0\Configure_V3.00\progress.avi=$(AppPath)
+D:\Ethernet_Wiznet\Ethernet_V3.0\VB6KO.DLL=$(WinSysPath)
+D:\Ethernet_Wiznet\Ethernet_V3.0\Configure_V3.00\VB6KO.DLL=$(WinSysPath)
+
+[Package|Standard Setup Package 2|Configure Shared Files]
+Applicable=Yes
+D:\Ethernet_Wiznet\Ethernet_V3.0\Configure_V3.00\Configure_V3.00.exe=Yes
+D:\Ethernet_Wiznet\Ethernet_V3.0\Configure_V3.00\progress.avi=Yes
+
+[Package|Standard Setup Package 2|Distribution]
+Type=single
+Size=1.44 MB
+Title=BIXOLON
+
+[Package|Standard Setup Package 2|IconGroups]
+Group0=BIXOLON
+PrivateGroup0=-1
+Parent0=$(Programs)
+
+[Package|Standard Setup Package 2|BIXOLON]
+Icon1=Configure_V3.00.exe
+Title1=Configure_V3.00
+StartIn1=$(AppPath)
+Key1=Icon1
+
+[Package|Standard Setup Package 2|Package]
+PackageFolder=D:\Ethernet_Wiznet\Ethernet_V3.0\Configure_V3.00\Configure
+ProjectFolder=D:\Ethernet_Wiznet\Ethernet_V3.0\Configure_V3.00
+ServerSideCab=
+File1=D:\Ethernet_Wiznet\Ethernet_V3.0\Configure_V3.00\Configure\setup.exe
+File2=D:\Ethernet_Wiznet\Ethernet_V3.0\Configure_V3.00\Configure\Setup.Lst
+File3=D:\Ethernet_Wiznet\Ethernet_V3.0\Configure_V3.00\Configure\Configure_V3.00.CAB
+Handler1=PDWizard.FolderDplySubWiz
+Handler2=PDWizard.WebPostDplySubWiz
+
+
+[Package|Standard Setup Package 3|Configure]
+Icon1=Configure_V3.00.exe
+Title1=Configure
+StartIn1=$(AppPath)
+Key1=Icon1
+
+[Package|Standard Setup Package 3|Root]
+SubWizProgID=PDWizard.SetupPkgSubWiz
+BuildFolder=D:\DEV\ETH2PRL\OWN\SW\PC\ConfigTool\package
+
+[Package|Standard Setup Package 3|Configure DAO ISAMs]
+Applicable=No
+
+[Package|Standard Setup Package 3|Configure DAO ODBC]
+JetWorkspace=
+ODBCDirect=
+
+[Package|Standard Setup Package 3|Files Found]
+VB6KO.DLL=D:\Ethernet_Wiznet\Ethernet_V3.0\Configure_V3.00\VB6KO.DLL
+
+[Package|Standard Setup Package 3|Files Released]
+progress.avi=
+
+[Package|Standard Setup Package 3|Missing Dependency Information]
+C:\WINDOWS\system32\comct332.ocx=
+C:\WINDOWS\system32\MSWINSCK.OCX=
+
+[Package|Standard Setup Package 3|Out-of-Date Dependency Information]
+
+[Package|Standard Setup Package 3|Files Added]
+progress.avi=
+d:\ethernet_wiznet\ethernet_v3.0\configure_v3.00\vb6ko.dll=
+D:\DEV\ETH2PRL\OWN\SW\PC\ConfigTool\progress.avi=
+
+[Package|Standard Setup Package 3|Files Removed]
+
+[Package|Standard Setup Package 3|Files In Project]
+C:\WINDOWS\system32\msvbvm60.dll=Yes
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\OLEAUT32.DLL=Yes
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\OLEPRO32.DLL=Yes
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\ASYCFILT.DLL=Yes
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\STDOLE2.TLB=Yes
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\COMCAT.DLL=Yes
+C:\WINDOWS\system32\MSWINSCK.OCX=Yes
+C:\WINDOWS\system32\COMCT332.OCX=Yes
+C:\WINDOWS\system32\MSCOMCT2.OCX=Yes
+C:\WINDOWS\system32\MSCOMCTL.OCX=Yes
+C:\WINDOWS\system32\COMDLG32.OCX=Yes
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\SETUP.EXE=Yes
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\SETUP1.EXE=Yes
+C:\WINDOWS\system32\VB6STKIT.DLL=Yes
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\ST6UNST.EXE=Yes
+D:\DEV\ETH2PRL\OWN\SW\PC\ConfigTool\Configure.exe=Yes
+C:\WINDOWS\system32\VB6ko.DLL=Yes
+C:\WINDOWS\system32\MSCC2KO.DLL=Yes
+C:\WINDOWS\system32\MSCMCKO.DLL=Yes
+C:\WINDOWS\system32\CMDLGKO.DLL=Yes
+D:\DEV\ETH2PRL\OWN\SW\PC\ConfigTool\progress.avi=Yes
+
+[Package|Standard Setup Package 3|Configure Registry Files]
+Applicable=No
+
+[Package|Standard Setup Package 3|Configure Remote Servers]
+Applicable=No
+
+[Package|Standard Setup Package 3|Install Locations]
+D:\Ethernet_Wiznet\Ethernet_V3.0\Configure_V3.00\Configure_V3.00.exe=$(AppPath)
+C:\WINDOWS\system32\msvbvm60.dll=$(WinSysPathSysFile)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\OLEAUT32.DLL=$(WinSysPathSysFile)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\OLEPRO32.DLL=$(WinSysPathSysFile)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\ASYCFILT.DLL=$(WinSysPathSysFile)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\STDOLE2.TLB=$(WinSysPathSysFile)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\COMCAT.DLL=$(WinSysPathSysFile)
+C:\WINDOWS\system32\MSWINSCK.OCX=$(WinSysPath)
+C:\WINDOWS\system32\COMCT332.OCX=$(WinSysPath)
+C:\WINDOWS\system32\MSCOMCT2.OCX=$(WinSysPath)
+C:\WINDOWS\system32\MSCOMCTL.OCX=$(WinSysPath)
+C:\WINDOWS\system32\COMDLG32.OCX=$(WinSysPath)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\SETUP.EXE=$(AppPath)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\SETUP1.EXE=$(WinPath)
+C:\WINDOWS\system32\VB6STKIT.DLL=$(WinSysPathSysFile)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\ST6UNST.EXE=$(WinPath)
+D:\Ethernet_Wiznet\Ethernet_V3.0\Configure_V3.00\progress.avi=$(AppPath)
+D:\Ethernet_Wiznet\Ethernet_V3.0\VB6KO.DLL=$(WinSysPath)
+D:\Ethernet_Wiznet\Ethernet_V3.0\Configure_V3.00\VB6KO.DLL=$(WinSysPath)
+D:\DEV\ETH2PRL\OWN\SW\PC\ConfigTool\Configure.exe=$(AppPath)
+C:\WINDOWS\system32\VB6ko.DLL=$(WinSysPath)
+C:\WINDOWS\system32\MSCC2KO.DLL=$(WinSysPath)
+C:\WINDOWS\system32\MSCMCKO.DLL=$(WinSysPath)
+C:\WINDOWS\system32\CMDLGKO.DLL=$(WinSysPath)
+D:\DEV\ETH2PRL\OWN\SW\PC\ConfigTool\progress.avi=$(AppPath)
+
+[Package|Standard Setup Package 3|Configure Shared Files]
+Applicable=Yes
+D:\Ethernet_Wiznet\Ethernet_V3.0\Configure_V3.00\Configure_V3.00.exe=Yes
+D:\Ethernet_Wiznet\Ethernet_V3.0\Configure_V3.00\progress.avi=Yes
+D:\DEV\ETH2PRL\OWN\SW\PC\ConfigTool\Configure.exe=No
+D:\DEV\ETH2PRL\OWN\SW\PC\ConfigTool\progress.avi=No
+
+[Package|Standard Setup Package 3|Distribution]
+Type=single
+Size=1.44 MB
+Title=ASRB-PARALLEL
+
+[Package|Standard Setup Package 3|IconGroups]
+Group0=WIZnet
+PrivateGroup0=0
+Parent0=$(Programs)
+
+[Package|Standard Setup Package 3|WIZnet]
+Icon1=Configure.exe
+Title1=ASRB-PARALLEL Configuration Tool
+StartIn1=$(AppPath)
+Key1=Icon3
+
+[Package|Standard Setup Package 3|Package]
+PackageFolder=D:\DEV\ETH2PRL\OWN\SW\PC\ConfigTool\package
+ProjectFolder=D:\DEV\ETH2PRL\OWN\SW\PC\ConfigTool
+ServerSideCab=
+File1=D:\DEV\ETH2PRL\OWN\SW\PC\ConfigTool\package\setup.exe
+File2=D:\DEV\ETH2PRL\OWN\SW\PC\ConfigTool\package\Setup.Lst
+File3=D:\DEV\ETH2PRL\OWN\SW\PC\ConfigTool\package\Configure.CAB
+Handler1=PDWizard.FolderDplySubWiz
+Handler2=PDWizard.WebPostDplySubWiz
+
+
+[Package|Standard Setup Package 4|Root]
+SubWizProgID=PDWizard.SetupPkgSubWiz
+BuildFolder=D:\work\project\2008\WIZ_EmbeddedWebserver\SW\config_rev1\pack
+
+[Package|Standard Setup Package 4|Configure DAO ISAMs]
+Applicable=No
+
+[Package|Standard Setup Package 4|Configure DAO ODBC]
+JetWorkspace=
+ODBCDirect=
+
+[Package|Standard Setup Package 4|Files Found]
+
+[Package|Standard Setup Package 4|Files Released]
+progress.avi=
+Config.ico=
+Cancel1_32x32x16.ico=
+47-Vaio2 Explorer.ico=
+36-iMac2 Networked Drive.ico=
+31-Vaio2 Settings.ico=
+Razor_32x32x256.ico=
+
+[Package|Standard Setup Package 4|Missing Dependency Information]
+
+[Package|Standard Setup Package 4|Out-of-Date Dependency Information]
+C:\WINDOWS\system32\mswinsck.ocx=
+
+[Package|Standard Setup Package 4|Files Added]
+d:\work\project\2008\wiz_embeddedwebserver\sw\config_rev1\razor_32x32x256.ico=
+d:\work\project\2008\wiz_embeddedwebserver\sw\config_rev1\31-vaio2 settings.ico=
+d:\work\project\2008\wiz_embeddedwebserver\sw\config_rev1\36-imac2 networked drive.ico=
+d:\work\project\2008\wiz_embeddedwebserver\sw\config_rev1\47-vaio2 explorer.ico=
+d:\work\project\2008\wiz_embeddedwebserver\sw\config_rev1\cancel1_32x32x16.ico=
+d:\work\project\2008\wiz_embeddedwebserver\sw\config_rev1\config.ico=
+
+[Package|Standard Setup Package 4|Files Removed]
+
+[Package|Standard Setup Package 4|Files In Project]
+C:\WINDOWS\system32\MSVBVM60.DLL=Yes
+C:\WINDOWS\system32\VB6ko.DLL=Yes
+C:\WINDOWS\system32\MSWINSCK.OCX=Yes
+C:\WINDOWS\system32\comct332.ocx=Yes
+C:\WINDOWS\system32\MSCOMCT2.OCX=Yes
+C:\WINDOWS\system32\MSCC2KO.DLL=Yes
+C:\WINDOWS\system32\MSCOMCTL.OCX=Yes
+C:\WINDOWS\system32\MSCMCKO.DLL=Yes
+C:\WINDOWS\system32\COMDLG32.OCX=Yes
+C:\WINDOWS\system32\CMDLGKO.DLL=Yes
+C:\WINDOWS\system32\VB6STKIT.DLL=Yes
+C:\VisualStudio\VB98\Wizards\PDWizard\Redist\OLEAUT32.DLL=Yes
+C:\VisualStudio\VB98\Wizards\PDWizard\Redist\OLEPRO32.DLL=Yes
+C:\VisualStudio\VB98\Wizards\PDWizard\Redist\ASYCFILT.DLL=Yes
+C:\VisualStudio\VB98\Wizards\PDWizard\Redist\STDOLE2.TLB=Yes
+C:\VisualStudio\VB98\Wizards\PDWizard\Redist\COMCAT.DLL=Yes
+C:\WINDOWS\system32\WINSKKO.DLL=Yes
+C:\WINDOWS\system32\CMCT3KO.DLL=Yes
+C:\VisualStudio\VB98\Wizards\PDWizard\SETUP.EXE=Yes
+C:\VisualStudio\VB98\Wizards\PDWizard\SETUP1.EXE=Yes
+C:\VisualStudio\VB98\Wizards\PDWizard\ST6UNST.EXE=Yes
+C:\WINDOWS\system32\MSSTDFMT.DLL=Yes
+C:\WINDOWS\system32\STDFTKO.DLL=Yes
+D:\work\project\2008\WIZ_EmbeddedWebserver\SW\config_rev1\WIZ-Web.exe=Yes
+D:\work\project\2008\WIZ_EmbeddedWebserver\SW\config_rev1\Razor_32x32x256.ico=Yes
+D:\work\project\2008\WIZ_EmbeddedWebserver\SW\config_rev1\31-Vaio2 Settings.ico=Yes
+D:\work\project\2008\WIZ_EmbeddedWebserver\SW\config_rev1\36-iMac2 Networked Drive.ico=Yes
+D:\work\project\2008\WIZ_EmbeddedWebserver\SW\config_rev1\47-Vaio2 Explorer.ico=Yes
+D:\work\project\2008\WIZ_EmbeddedWebserver\SW\config_rev1\Cancel1_32x32x16.ico=Yes
+D:\work\project\2008\WIZ_EmbeddedWebserver\SW\config_rev1\Config.ico=Yes
+
+[Package|Standard Setup Package 4|Configure Registry Files]
+Applicable=No
+
+[Package|Standard Setup Package 4|Configure Remote Servers]
+Applicable=No
+
+[Package|Standard Setup Package 4|Install Locations]
+D:\DEV\ETH2PRL\OWN\SW\PC\ConfigTool\Configure.exe=$(AppPath)
+C:\WINDOWS\system32\MSVBVM60.DLL=$(WinSysPathSysFile)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\OLEAUT32.DLL=$(WinSysPathSysFile)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\OLEPRO32.DLL=$(WinSysPathSysFile)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\ASYCFILT.DLL=$(WinSysPathSysFile)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\STDOLE2.TLB=$(WinSysPathSysFile)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\COMCAT.DLL=$(WinSysPathSysFile)
+C:\WINDOWS\system32\VB6ko.DLL=$(WinSysPath)
+C:\WINDOWS\system32\MSWINSCK.OCX=$(WinSysPath)
+C:\WINDOWS\system32\comct332.ocx=$(WinSysPath)
+C:\WINDOWS\system32\MSCOMCT2.OCX=$(WinSysPath)
+C:\WINDOWS\system32\MSCC2KO.DLL=$(WinSysPath)
+C:\WINDOWS\system32\MSCOMCTL.OCX=$(WinSysPath)
+C:\WINDOWS\system32\MSCMCKO.DLL=$(WinSysPath)
+C:\WINDOWS\system32\COMDLG32.OCX=$(WinSysPath)
+C:\WINDOWS\system32\CMDLGKO.DLL=$(WinSysPath)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\SETUP.EXE=$(AppPath)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\SETUP1.EXE=$(WinPath)
+C:\WINDOWS\system32\VB6STKIT.DLL=$(WinSysPathSysFile)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\ST6UNST.EXE=$(WinPath)
+D:\DEV\ETH2PRL\OWN\SW\PC\ConfigTool\Razor_32x32x256.ico=$(AppPath)
+D:\DEV\ETH2PRL\OWN\SW\PC\ConfigTool\31-Vaio2 Settings.ico=$(AppPath)
+D:\DEV\ETH2PRL\OWN\SW\PC\ConfigTool\36-iMac2 Networked Drive.ico=$(AppPath)
+D:\DEV\ETH2PRL\OWN\SW\PC\ConfigTool\47-Vaio2 Explorer.ico=$(AppPath)
+D:\DEV\ETH2PRL\OWN\SW\PC\ConfigTool\Cancel1_32x32x16.ico=$(AppPath)
+D:\DEV\ETH2PRL\OWN\SW\PC\ConfigTool\Config.ico=$(AppPath)
+D:\DEV\ETH2PRL\OWN\SW\PC\ConfigTool\progress.avi=$(AppPath)
+D:\work\wiznetwork\usb_e\PCApp\WIZ200-USBPCApp01\FLUSBcfg.exe=$(AppPath)
+C:\VisualStudio\VB98\Wizards\PDWizard\Redist\OLEAUT32.DLL=$(WinSysPathSysFile)
+C:\VisualStudio\VB98\Wizards\PDWizard\Redist\OLEPRO32.DLL=$(WinSysPathSysFile)
+C:\VisualStudio\VB98\Wizards\PDWizard\Redist\ASYCFILT.DLL=$(WinSysPathSysFile)
+C:\VisualStudio\VB98\Wizards\PDWizard\Redist\STDOLE2.TLB=$(WinSysPathSysFile)
+C:\VisualStudio\VB98\Wizards\PDWizard\Redist\COMCAT.DLL=$(WinSysPathSysFile)
+C:\WINDOWS\system32\WINSKKO.DLL=$(WinSysPath)
+C:\WINDOWS\system32\CMCT3KO.DLL=$(WinSysPath)
+C:\VisualStudio\VB98\Wizards\PDWizard\SETUP.EXE=$(AppPath)
+C:\VisualStudio\VB98\Wizards\PDWizard\SETUP1.EXE=$(WinPath)
+C:\VisualStudio\VB98\Wizards\PDWizard\ST6UNST.EXE=$(WinPath)
+D:\work\project\wiznet\WebserverAK\SW\config_rev1\WIZ-Web.exe=$(AppPath)
+C:\WINDOWS\system32\MSSTDFMT.DLL=$(WinSysPath)
+C:\WINDOWS\system32\STDFTKO.DLL=$(WinSysPath)
+D:\work\project\wiznet\WebserverAK\SW\config_rev1\Razor_32x32x256.ico=$(AppPath)
+D:\work\project\wiznet\WebserverAK\SW\config_rev1\31-Vaio2 Settings.ico=$(AppPath)
+D:\work\project\wiznet\WebserverAK\SW\config_rev1\36-iMac2 Networked Drive.ico=$(AppPath)
+D:\work\project\wiznet\WebserverAK\SW\config_rev1\47-Vaio2 Explorer.ico=$(AppPath)
+D:\work\project\wiznet\WebserverAK\SW\config_rev1\Cancel1_32x32x16.ico=$(AppPath)
+D:\work\project\wiznet\WebserverAK\SW\config_rev1\Config.ico=$(AppPath)
+D:\work\project\2008\WIZ_EmbeddedWebserver\SW\config_rev1\WIZ-Web.exe=$(AppPath)
+D:\work\project\2008\WIZ_EmbeddedWebserver\SW\config_rev1\Razor_32x32x256.ico=$(AppPath)
+D:\work\project\2008\WIZ_EmbeddedWebserver\SW\config_rev1\31-Vaio2 Settings.ico=$(AppPath)
+D:\work\project\2008\WIZ_EmbeddedWebserver\SW\config_rev1\36-iMac2 Networked Drive.ico=$(AppPath)
+D:\work\project\2008\WIZ_EmbeddedWebserver\SW\config_rev1\47-Vaio2 Explorer.ico=$(AppPath)
+D:\work\project\2008\WIZ_EmbeddedWebserver\SW\config_rev1\Cancel1_32x32x16.ico=$(AppPath)
+D:\work\project\2008\WIZ_EmbeddedWebserver\SW\config_rev1\Config.ico=$(AppPath)
+
+[Package|Standard Setup Package 4|Configure Shared Files]
+Applicable=Yes
+D:\DEV\ETH2PRL\OWN\SW\PC\ConfigTool\Configure.exe=No
+D:\DEV\ETH2PRL\OWN\SW\PC\ConfigTool\Razor_32x32x256.ico=No
+D:\DEV\ETH2PRL\OWN\SW\PC\ConfigTool\31-Vaio2 Settings.ico=No
+D:\DEV\ETH2PRL\OWN\SW\PC\ConfigTool\36-iMac2 Networked Drive.ico=No
+D:\DEV\ETH2PRL\OWN\SW\PC\ConfigTool\47-Vaio2 Explorer.ico=No
+D:\DEV\ETH2PRL\OWN\SW\PC\ConfigTool\Cancel1_32x32x16.ico=No
+D:\DEV\ETH2PRL\OWN\SW\PC\ConfigTool\Config.ico=No
+D:\DEV\ETH2PRL\OWN\SW\PC\ConfigTool\progress.avi=No
+D:\work\wiznetwork\usb_e\PCApp\WIZ200-USBPCApp01\FLUSBcfg.exe=No
+D:\work\project\wiznet\WebserverAK\SW\config_rev1\WIZ-Web.exe=No
+D:\work\project\wiznet\WebserverAK\SW\config_rev1\Razor_32x32x256.ico=No
+D:\work\project\wiznet\WebserverAK\SW\config_rev1\31-Vaio2 Settings.ico=No
+D:\work\project\wiznet\WebserverAK\SW\config_rev1\36-iMac2 Networked Drive.ico=No
+D:\work\project\wiznet\WebserverAK\SW\config_rev1\47-Vaio2 Explorer.ico=No
+D:\work\project\wiznet\WebserverAK\SW\config_rev1\Cancel1_32x32x16.ico=No
+D:\work\project\wiznet\WebserverAK\SW\config_rev1\Config.ico=No
+D:\work\project\2008\WIZ_EmbeddedWebserver\SW\config_rev1\WIZ-Web.exe=Yes
+D:\work\project\2008\WIZ_EmbeddedWebserver\SW\config_rev1\Razor_32x32x256.ico=Yes
+D:\work\project\2008\WIZ_EmbeddedWebserver\SW\config_rev1\31-Vaio2 Settings.ico=Yes
+D:\work\project\2008\WIZ_EmbeddedWebserver\SW\config_rev1\36-iMac2 Networked Drive.ico=Yes
+D:\work\project\2008\WIZ_EmbeddedWebserver\SW\config_rev1\47-Vaio2 Explorer.ico=Yes
+D:\work\project\2008\WIZ_EmbeddedWebserver\SW\config_rev1\Cancel1_32x32x16.ico=Yes
+D:\work\project\2008\WIZ_EmbeddedWebserver\SW\config_rev1\Config.ico=Yes
+
+[Package|Standard Setup Package 4|Distribution]
+Type=single
+Size=
+Title=WIZ-EmbeddedWebServer
+
+[Package|Standard Setup Package 4|IconGroups]
+Group0=Configure
+PrivateGroup0=-1
+Parent0=$(Programs)
+
+[Package|Standard Setup Package 4|Configure]
+Icon1=Configure.exe
+Title1=Configure
+StartIn1=$(AppPath)
+Key1=Icon1
+
+[Package|Standard Setup Package 4|Package]
+PackageFolder=D:\work\project\2008\WIZ_EmbeddedWebserver\SW\config_rev1\pack
+ProjectFolder=D:\work\project\2008\WIZ_EmbeddedWebserver\SW\config_rev1
+ServerSideCab=
+File1=D:\work\project\2008\WIZ_EmbeddedWebserver\SW\config_rev1\pack\setup.exe
+File2=D:\work\project\2008\WIZ_EmbeddedWebserver\SW\config_rev1\pack\Setup.Lst
+File3=D:\work\project\2008\WIZ_EmbeddedWebserver\SW\config_rev1\pack\WIZ-Web.CAB
+Handler1=PDWizard.FolderDplySubWiz
+Handler2=PDWizard.WebPostDplySubWiz

@@ -1,0 +1,646 @@
+Archive member included because of file (symbol)
+
+c:/winavr-20090313/bin/../lib/gcc/avr/4.3.2/avr51\libgcc.a(_exit.o)
+                              c:/winavr-20090313/bin/../lib/gcc/avr/4.3.2/../../../../avr/lib/avr51/crtm128.o (exit)
+c:/winavr-20090313/bin/../lib/gcc/avr/4.3.2/avr51\libgcc.a(_clear_bss.o)
+                              main.o (__do_clear_bss)
+c:/winavr-20090313/bin/../lib/gcc/avr/4.3.2/../../../../avr/lib/avr51\libc.a(eerd_block.o)
+                              main.o (__eerd_block)
+c:/winavr-20090313/bin/../lib/gcc/avr/4.3.2/../../../../avr/lib/avr51\libc.a(printf.o)
+                              socket.o (printf)
+c:/winavr-20090313/bin/../lib/gcc/avr/4.3.2/../../../../avr/lib/avr51\libc.a(puts.o)
+                              socket.o (puts)
+c:/winavr-20090313/bin/../lib/gcc/avr/4.3.2/../../../../avr/lib/avr51\libc.a(vfprintf_std.o)
+                              c:/winavr-20090313/bin/../lib/gcc/avr/4.3.2/../../../../avr/lib/avr51\libc.a(printf.o) (vfprintf)
+c:/winavr-20090313/bin/../lib/gcc/avr/4.3.2/../../../../avr/lib/avr51\libc.a(strnlen_P.o)
+                              c:/winavr-20090313/bin/../lib/gcc/avr/4.3.2/../../../../avr/lib/avr51\libc.a(vfprintf_std.o) (strnlen_P)
+c:/winavr-20090313/bin/../lib/gcc/avr/4.3.2/../../../../avr/lib/avr51\libc.a(strnlen.o)
+                              c:/winavr-20090313/bin/../lib/gcc/avr/4.3.2/../../../../avr/lib/avr51\libc.a(vfprintf_std.o) (strnlen)
+c:/winavr-20090313/bin/../lib/gcc/avr/4.3.2/../../../../avr/lib/avr51\libc.a(fputc.o)
+                              c:/winavr-20090313/bin/../lib/gcc/avr/4.3.2/../../../../avr/lib/avr51\libc.a(vfprintf_std.o) (fputc)
+c:/winavr-20090313/bin/../lib/gcc/avr/4.3.2/../../../../avr/lib/avr51\libc.a(iob.o)
+                              c:/winavr-20090313/bin/../lib/gcc/avr/4.3.2/../../../../avr/lib/avr51\libc.a(printf.o) (__iob)
+c:/winavr-20090313/bin/../lib/gcc/avr/4.3.2/../../../../avr/lib/avr51\libc.a(ultoa_invert.o)
+                              c:/winavr-20090313/bin/../lib/gcc/avr/4.3.2/../../../../avr/lib/avr51\libc.a(vfprintf_std.o) (__ultoa_invert)
+c:/winavr-20090313/bin/../lib/gcc/avr/4.3.2/avr51\libgcc.a(_prologue.o)
+                              c:/winavr-20090313/bin/../lib/gcc/avr/4.3.2/../../../../avr/lib/avr51\libc.a(eerd_block.o) (__prologue_saves__)
+c:/winavr-20090313/bin/../lib/gcc/avr/4.3.2/avr51\libgcc.a(_epilogue.o)
+                              c:/winavr-20090313/bin/../lib/gcc/avr/4.3.2/../../../../avr/lib/avr51\libc.a(eerd_block.o) (__epilogue_restores__)
+
+Allocating common symbols
+Common symbol       size              file
+
+check_sendok_flag   0x8               socket.o
+FLASH_BUF           0x100             netloading.o
+first_send_flag     0x8               socket.o
+ConfigMsg           0x32              main.o
+local_port          0x2               socket.o
+NetworkParam        0x18              main.o
+SOCK_INT            0x8               w5300.o
+RXMEM_SIZE          0x20              w5300.o
+__iob               0x6               c:/winavr-20090313/bin/../lib/gcc/avr/4.3.2/../../../../avr/lib/avr51\libc.a(iob.o)
+TXMEM_SIZE          0x20              w5300.o
+
+Memory Configuration
+
+Name             Origin             Length             Attributes
+text             0x00000000         0x00020000         xr
+data             0x00800060         0x0000ffa0         rw !x
+eeprom           0x00810000         0x00010000         rw !x
+fuse             0x00820000         0x00000400         rw !x
+lock             0x00830000         0x00000400         rw !x
+signature        0x00840000         0x00000400         rw !x
+*default*        0x00000000         0xffffffff
+
+Linker script and memory map
+
+Address of section .data set to 0x800100
+LOAD c:/winavr-20090313/bin/../lib/gcc/avr/4.3.2/../../../../avr/lib/avr51/crtm128.o
+LOAD delay.o
+LOAD flash.o
+LOAD main.o
+LOAD netloading.o
+LOAD socket.o
+LOAD serial.o
+LOAD w5300.o
+LOAD c:/winavr-20090313/bin/../lib/gcc/avr/4.3.2/avr51\libgcc.a
+LOAD c:/winavr-20090313/bin/../lib/gcc/avr/4.3.2/../../../../avr/lib/avr51\libc.a
+LOAD c:/winavr-20090313/bin/../lib/gcc/avr/4.3.2/avr51\libgcc.a
+Address of section .text set to 0x1e000
+
+.hash
+ *(.hash)
+
+.dynsym
+ *(.dynsym)
+
+.dynstr
+ *(.dynstr)
+
+.gnu.version
+ *(.gnu.version)
+
+.gnu.version_d
+ *(.gnu.version_d)
+
+.gnu.version_r
+ *(.gnu.version_r)
+
+.rel.init
+ *(.rel.init)
+
+.rela.init
+ *(.rela.init)
+
+.rel.text
+ *(.rel.text)
+ *(.rel.text.*)
+ *(.rel.gnu.linkonce.t*)
+
+.rela.text
+ *(.rela.text)
+ *(.rela.text.*)
+ *(.rela.gnu.linkonce.t*)
+
+.rel.fini
+ *(.rel.fini)
+
+.rela.fini
+ *(.rela.fini)
+
+.rel.rodata
+ *(.rel.rodata)
+ *(.rel.rodata.*)
+ *(.rel.gnu.linkonce.r*)
+
+.rela.rodata
+ *(.rela.rodata)
+ *(.rela.rodata.*)
+ *(.rela.gnu.linkonce.r*)
+
+.rel.data
+ *(.rel.data)
+ *(.rel.data.*)
+ *(.rel.gnu.linkonce.d*)
+
+.rela.data
+ *(.rela.data)
+ *(.rela.data.*)
+ *(.rela.gnu.linkonce.d*)
+
+.rel.ctors
+ *(.rel.ctors)
+
+.rela.ctors
+ *(.rela.ctors)
+
+.rel.dtors
+ *(.rel.dtors)
+
+.rela.dtors
+ *(.rela.dtors)
+
+.rel.got
+ *(.rel.got)
+
+.rela.got
+ *(.rela.got)
+
+.rel.bss
+ *(.rel.bss)
+
+.rela.bss
+ *(.rela.bss)
+
+.rel.plt
+ *(.rel.plt)
+
+.rela.plt
+ *(.rela.plt)
+
+.text           0x0001e000     0x1e04
+ *(.vectors)
+ .vectors       0x0001e000       0x8c c:/winavr-20090313/bin/../lib/gcc/avr/4.3.2/../../../../avr/lib/avr51/crtm128.o
+                0x0001e000                __vectors
+                0x0001e000                __vector_default
+ *(.vectors)
+ *(.progmem.gcc*)
+ *(.progmem*)
+                0x0001e08c                . = ALIGN (0x2)
+                0x0001e08c                __trampolines_start = .
+ *(.trampolines)
+ .trampolines   0x0001e08c        0x0 linker stubs
+ *(.trampolines*)
+                0x0001e08c                __trampolines_end = .
+ *(.jumptables)
+ *(.jumptables*)
+ *(.lowtext)
+ *(.lowtext*)
+                0x0001e08c                __ctors_start = .
+ *(.ctors)
+                0x0001e08c                __ctors_end = .
+                0x0001e08c                __dtors_start = .
+ *(.dtors)
+                0x0001e08c                __dtors_end = .
+ SORT(*)(.ctors)
+ SORT(*)(.dtors)
+ *(.init0)
+ .init0         0x0001e08c        0x0 c:/winavr-20090313/bin/../lib/gcc/avr/4.3.2/../../../../avr/lib/avr51/crtm128.o
+                0x0001e08c                __init
+ *(.init0)
+ *(.init1)
+ *(.init1)
+ *(.init2)
+ .init2         0x0001e08c        0xc c:/winavr-20090313/bin/../lib/gcc/avr/4.3.2/../../../../avr/lib/avr51/crtm128.o
+ *(.init2)
+ *(.init3)
+ *(.init3)
+ *(.init4)
+ .init4         0x0001e098       0x1a c:/winavr-20090313/bin/../lib/gcc/avr/4.3.2/../../../../avr/lib/avr51/crtm128.o
+                0x0001e098                __do_copy_data
+ .init4         0x0001e0b2       0x10 c:/winavr-20090313/bin/../lib/gcc/avr/4.3.2/avr51\libgcc.a(_clear_bss.o)
+                0x0001e0b2                __do_clear_bss
+ *(.init4)
+ *(.init5)
+ *(.init5)
+ *(.init6)
+ *(.init6)
+ *(.init7)
+ *(.init7)
+ *(.init8)
+ *(.init8)
+ *(.init9)
+ .init9         0x0001e0c2        0x8 c:/winavr-20090313/bin/../lib/gcc/avr/4.3.2/../../../../avr/lib/avr51/crtm128.o
+ *(.init9)
+ *(.text)
+ .text          0x0001e0ca        0x4 c:/winavr-20090313/bin/../lib/gcc/avr/4.3.2/../../../../avr/lib/avr51/crtm128.o
+                0x0001e0ca                __vector_22
+                0x0001e0ca                __vector_28
+                0x0001e0ca                __vector_1
+                0x0001e0ca                __vector_32
+                0x0001e0ca                __vector_34
+                0x0001e0ca                __vector_24
+                0x0001e0ca                __vector_12
+                0x0001e0ca                __bad_interrupt
+                0x0001e0ca                __vector_6
+                0x0001e0ca                __vector_31
+                0x0001e0ca                __vector_3
+                0x0001e0ca                __vector_23
+                0x0001e0ca                __vector_30
+                0x0001e0ca                __vector_25
+                0x0001e0ca                __vector_11
+                0x0001e0ca                __vector_13
+                0x0001e0ca                __vector_17
+                0x0001e0ca                __vector_19
+                0x0001e0ca                __vector_7
+                0x0001e0ca                __vector_27
+                0x0001e0ca                __vector_5
+                0x0001e0ca                __vector_33
+                0x0001e0ca                __vector_4
+                0x0001e0ca                __vector_9
+                0x0001e0ca                __vector_2
+                0x0001e0ca                __vector_21
+                0x0001e0ca                __vector_15
+                0x0001e0ca                __vector_29
+                0x0001e0ca                __vector_8
+                0x0001e0ca                __vector_26
+                0x0001e0ca                __vector_14
+                0x0001e0ca                __vector_10
+                0x0001e0ca                __vector_16
+                0x0001e0ca                __vector_18
+                0x0001e0ca                __vector_20
+ .text          0x0001e0ce       0x52 delay.o
+                0x0001e104                wait_1ms
+                0x0001e0de                wait_10ms
+                0x0001e0ce                wait_1us
+ .text          0x0001e120       0x1c flash.o
+                0x0001e120                SpmCommand
+                0x0001e124                SpmBufferFill
+ .text          0x0001e13c      0x110 main.o
+                0x0001e14c                init_board
+                0x0001e164                initNet
+                0x0001e1e6                main
+ .text          0x0001e24c      0x314 netloading.o
+                0x0001e24c                swapl
+                0x0001e34c                loading
+ .text          0x0001e560      0x7ce socket.o
+                0x0001e910                recv
+                0x0001e578                connect
+                0x0001e9b0                recvfrom
+                0x0001e64e                socket
+                0x0001ec48                send
+                0x0001e560                disconnect
+                0x0001e7de                sendto
+                0x0001e70c                listen
+                0x0001e73a                igmpsend
+                0x0001e636                close
+ .text          0x0001ed2e       0x9c serial.o
+                0x0001ed5c                putData
+                0x0001ed48                putStr
+                0x0001ed40                USART0_Transmit
+                0x0001ed2e                initUart
+ .text          0x0001edca      0xa02 w5300.o
+                0x0001ef2c                setRTR
+                0x0001eede                getSIPR
+                0x0001f0b2                getSn_CR
+                0x0001f53c                setSn_TOSR
+                0x0001f1b0                setSn_DHAR
+                0x0001ee5a                setSHAR
+                0x0001edd0                IINCHIP_WRITE
+                0x0001edf6                getIR
+                0x0001ef16                getRTR
+                0x0001f07a                getSn_MR
+                0x0001ef3c                setRCR
+                0x0001efc0                getUIPR
+                0x0001f164                getSn_DHAR
+                0x0001f258                getSn_MSSR
+                0x0001f4d4                getSn_RX_FIFOR
+                0x0001f552                getSn_TTLR
+                0x0001f27c                setSn_MSSR
+                0x0001f01c                setPn_BRDYR
+                0x0001ef42                getPATR
+                0x0001eea6                getSUBR
+                0x0001f204                getSn_DIPR
+                0x0001f594                setSn_FRAGR
+                0x0001f3ee                getSn_RX_RSR
+                0x0001ee32                getSHAR
+                0x0001f0e8                getSn_IMR
+                0x0001f4f8                getSn_PROTOR
+                0x0001f2f8                setSn_TX_WRSR
+                0x0001f04e                setPn_BDPTHR
+                0x0001efdc                getUPORTR
+                0x0001f726                wiz_read_buf
+                0x0001ef36                getRCR
+                0x0001eefa                setSIPR
+                0x0001f234                setSn_DIPR
+                0x0001eff2                getFMTUR
+                0x0001f57e                getSn_FRAGR
+                0x0001f030                getPn_BDPTHR
+                0x0001ee6e                getGAR
+                0x0001f5aa                sysinit
+                0x0001edca                IINCHIP_READ
+                0x0001ef5e                setPTIMER
+                0x0001f114                getSn_IR
+                0x0001f2ac                setSn_KPALVTR
+                0x0001f2cc                getSn_TX_WRSR
+                0x0001f008                getPn_BRDYR
+                0x0001f324                getSn_TX_FSR
+                0x0001ef58                getPTIMER
+                0x0001ef70                getPSIDR
+                0x0001ee12                getIMR
+                0x0001f7bc                iinchip_init
+                0x0001f064                getIDR
+                0x0001ef6a                setPMAGICR
+                0x0001f1ec                setSn_DPORTR
+                0x0001ee28                setIMR
+                0x0001f4bc                setSn_TX_FIFOR
+                0x0001edec                setMR
+                0x0001f12a                setSn_IR
+                0x0001f294                getSn_KPALVTR
+                0x0001f526                getSn_TOSR
+                0x0001f50e                setSn_PROTOR
+                0x0001eec2                setSUBR
+                0x0001ef64                getPMAGICR
+                0x0001f0fe                setSn_IMR
+                0x0001f788                getIINCHIP_TxMAX
+                0x0001ee0c                setIR
+                0x0001f09a                setSn_MR
+                0x0001f140                getSn_SSR
+                0x0001ef86                getPDHAR
+                0x0001f0c8                setSn_CR
+                0x0001f6c4                wiz_write_buf
+                0x0001f7a2                getIINCHIP_RxMAX
+                0x0001f568                setSn_TTLR
+                0x0001ee8a                setGAR
+                0x0001edd6                getMR
+ .text          0x0001f7cc        0x0 c:/winavr-20090313/bin/../lib/gcc/avr/4.3.2/avr51\libgcc.a(_exit.o)
+ .text          0x0001f7cc        0x0 c:/winavr-20090313/bin/../lib/gcc/avr/4.3.2/avr51\libgcc.a(_clear_bss.o)
+ .text          0x0001f7cc       0x38 c:/winavr-20090313/bin/../lib/gcc/avr/4.3.2/../../../../avr/lib/avr51\libc.a(eerd_block.o)
+                0x0001f7cc                __eerd_block
+ .text          0x0001f804       0x2a c:/winavr-20090313/bin/../lib/gcc/avr/4.3.2/../../../../avr/lib/avr51\libc.a(printf.o)
+                0x0001f804                printf
+ .text          0x0001f82e       0x6a c:/winavr-20090313/bin/../lib/gcc/avr/4.3.2/../../../../avr/lib/avr51\libc.a(puts.o)
+                0x0001f82e                puts
+ .text          0x0001f898      0x3ba c:/winavr-20090313/bin/../lib/gcc/avr/4.3.2/../../../../avr/lib/avr51\libc.a(vfprintf_std.o)
+                0x0001f898                vfprintf
+ .text          0x0001fc52       0x16 c:/winavr-20090313/bin/../lib/gcc/avr/4.3.2/../../../../avr/lib/avr51\libc.a(strnlen_P.o)
+                0x0001fc52                strnlen_P
+ .text          0x0001fc68       0x16 c:/winavr-20090313/bin/../lib/gcc/avr/4.3.2/../../../../avr/lib/avr51\libc.a(strnlen.o)
+                0x0001fc68                strnlen
+ .text          0x0001fc7e       0x58 c:/winavr-20090313/bin/../lib/gcc/avr/4.3.2/../../../../avr/lib/avr51\libc.a(fputc.o)
+                0x0001fc7e                fputc
+ .text          0x0001fcd6        0x0 c:/winavr-20090313/bin/../lib/gcc/avr/4.3.2/../../../../avr/lib/avr51\libc.a(iob.o)
+ .text          0x0001fcd6       0xbc c:/winavr-20090313/bin/../lib/gcc/avr/4.3.2/../../../../avr/lib/avr51\libc.a(ultoa_invert.o)
+                0x0001fcd6                __ultoa_invert
+ .text          0x0001fd92        0x0 c:/winavr-20090313/bin/../lib/gcc/avr/4.3.2/avr51\libgcc.a(_prologue.o)
+ .text          0x0001fd92        0x0 c:/winavr-20090313/bin/../lib/gcc/avr/4.3.2/avr51\libgcc.a(_epilogue.o)
+                0x0001fd92                . = ALIGN (0x2)
+ *(.text.*)
+ .text.libgcc   0x0001fd92        0x0 c:/winavr-20090313/bin/../lib/gcc/avr/4.3.2/avr51\libgcc.a(_exit.o)
+ .text.libgcc   0x0001fd92        0x0 c:/winavr-20090313/bin/../lib/gcc/avr/4.3.2/avr51\libgcc.a(_clear_bss.o)
+ .text.libgcc   0x0001fd92       0x38 c:/winavr-20090313/bin/../lib/gcc/avr/4.3.2/avr51\libgcc.a(_prologue.o)
+                0x0001fd92                __prologue_saves__
+ .text.libgcc   0x0001fdca       0x36 c:/winavr-20090313/bin/../lib/gcc/avr/4.3.2/avr51\libgcc.a(_epilogue.o)
+                0x0001fdca                __epilogue_restores__
+                0x0001fe00                . = ALIGN (0x2)
+ *(.fini9)
+ .fini9         0x0001fe00        0x0 c:/winavr-20090313/bin/../lib/gcc/avr/4.3.2/avr51\libgcc.a(_exit.o)
+                0x0001fe00                exit
+                0x0001fe00                _exit
+ *(.fini9)
+ *(.fini8)
+ *(.fini8)
+ *(.fini7)
+ *(.fini7)
+ *(.fini6)
+ *(.fini6)
+ *(.fini5)
+ *(.fini5)
+ *(.fini4)
+ *(.fini4)
+ *(.fini3)
+ *(.fini3)
+ *(.fini2)
+ *(.fini2)
+ *(.fini1)
+ *(.fini1)
+ *(.fini0)
+ .fini0         0x0001fe00        0x4 c:/winavr-20090313/bin/../lib/gcc/avr/4.3.2/avr51\libgcc.a(_exit.o)
+ *(.fini0)
+                0x0001fe04                _etext = .
+
+.data           0x00800100       0xd4 load address 0x0001fe04
+                0x00800100                PROVIDE (__data_start, .)
+ *(.data)
+ .data          0x00800100        0x0 c:/winavr-20090313/bin/../lib/gcc/avr/4.3.2/../../../../avr/lib/avr51/crtm128.o
+ .data          0x00800100        0x0 delay.o
+ .data          0x00800100        0x0 flash.o
+ .data          0x00800100       0x45 main.o
+ .data          0x00800145       0x13 netloading.o
+ .data          0x00800158       0x7b socket.o
+ .data          0x008001d3        0x0 serial.o
+ .data          0x008001d3        0x0 w5300.o
+ .data          0x008001d3        0x0 c:/winavr-20090313/bin/../lib/gcc/avr/4.3.2/avr51\libgcc.a(_exit.o)
+ .data          0x008001d3        0x0 c:/winavr-20090313/bin/../lib/gcc/avr/4.3.2/avr51\libgcc.a(_clear_bss.o)
+ .data          0x008001d3        0x0 c:/winavr-20090313/bin/../lib/gcc/avr/4.3.2/../../../../avr/lib/avr51\libc.a(eerd_block.o)
+ .data          0x008001d3        0x0 c:/winavr-20090313/bin/../lib/gcc/avr/4.3.2/../../../../avr/lib/avr51\libc.a(printf.o)
+ .data          0x008001d3        0x0 c:/winavr-20090313/bin/../lib/gcc/avr/4.3.2/../../../../avr/lib/avr51\libc.a(puts.o)
+ .data          0x008001d3        0x0 c:/winavr-20090313/bin/../lib/gcc/avr/4.3.2/../../../../avr/lib/avr51\libc.a(vfprintf_std.o)
+ .data          0x008001d3        0x0 c:/winavr-20090313/bin/../lib/gcc/avr/4.3.2/../../../../avr/lib/avr51\libc.a(strnlen_P.o)
+ .data          0x008001d3        0x0 c:/winavr-20090313/bin/../lib/gcc/avr/4.3.2/../../../../avr/lib/avr51\libc.a(strnlen.o)
+ .data          0x008001d3        0x0 c:/winavr-20090313/bin/../lib/gcc/avr/4.3.2/../../../../avr/lib/avr51\libc.a(fputc.o)
+ .data          0x008001d3        0x0 c:/winavr-20090313/bin/../lib/gcc/avr/4.3.2/../../../../avr/lib/avr51\libc.a(iob.o)
+ .data          0x008001d3        0x0 c:/winavr-20090313/bin/../lib/gcc/avr/4.3.2/../../../../avr/lib/avr51\libc.a(ultoa_invert.o)
+ .data          0x008001d3        0x0 c:/winavr-20090313/bin/../lib/gcc/avr/4.3.2/avr51\libgcc.a(_prologue.o)
+ .data          0x008001d3        0x0 c:/winavr-20090313/bin/../lib/gcc/avr/4.3.2/avr51\libgcc.a(_epilogue.o)
+ *(.data*)
+ *(.rodata)
+ *(.rodata*)
+ *(.gnu.linkonce.d*)
+                0x008001d4                . = ALIGN (0x2)
+ *fill*         0x008001d3        0x1 00
+                0x008001d4                _edata = .
+                0x008001d4                PROVIDE (__data_end, .)
+
+.bss            0x008001d4      0x1ba
+                0x008001d4                PROVIDE (__bss_start, .)
+ *(.bss)
+ .bss           0x008001d4        0x0 c:/winavr-20090313/bin/../lib/gcc/avr/4.3.2/../../../../avr/lib/avr51/crtm128.o
+ .bss           0x008001d4        0x0 delay.o
+ .bss           0x008001d4        0x0 flash.o
+ .bss           0x008001d4        0x0 main.o
+ .bss           0x008001d4        0x0 netloading.o
+ .bss           0x008001d4       0x10 socket.o
+                0x008001d4                cmd_cnt
+ .bss           0x008001e4        0x0 serial.o
+ .bss           0x008001e4        0x0 w5300.o
+ .bss           0x008001e4        0x0 c:/winavr-20090313/bin/../lib/gcc/avr/4.3.2/avr51\libgcc.a(_exit.o)
+ .bss           0x008001e4        0x0 c:/winavr-20090313/bin/../lib/gcc/avr/4.3.2/avr51\libgcc.a(_clear_bss.o)
+ .bss           0x008001e4        0x0 c:/winavr-20090313/bin/../lib/gcc/avr/4.3.2/../../../../avr/lib/avr51\libc.a(eerd_block.o)
+ .bss           0x008001e4        0x0 c:/winavr-20090313/bin/../lib/gcc/avr/4.3.2/../../../../avr/lib/avr51\libc.a(printf.o)
+ .bss           0x008001e4        0x0 c:/winavr-20090313/bin/../lib/gcc/avr/4.3.2/../../../../avr/lib/avr51\libc.a(puts.o)
+ .bss           0x008001e4        0x0 c:/winavr-20090313/bin/../lib/gcc/avr/4.3.2/../../../../avr/lib/avr51\libc.a(vfprintf_std.o)
+ .bss           0x008001e4        0x0 c:/winavr-20090313/bin/../lib/gcc/avr/4.3.2/../../../../avr/lib/avr51\libc.a(strnlen_P.o)
+ .bss           0x008001e4        0x0 c:/winavr-20090313/bin/../lib/gcc/avr/4.3.2/../../../../avr/lib/avr51\libc.a(strnlen.o)
+ .bss           0x008001e4        0x0 c:/winavr-20090313/bin/../lib/gcc/avr/4.3.2/../../../../avr/lib/avr51\libc.a(fputc.o)
+ .bss           0x008001e4        0x0 c:/winavr-20090313/bin/../lib/gcc/avr/4.3.2/../../../../avr/lib/avr51\libc.a(iob.o)
+ .bss           0x008001e4        0x0 c:/winavr-20090313/bin/../lib/gcc/avr/4.3.2/../../../../avr/lib/avr51\libc.a(ultoa_invert.o)
+ .bss           0x008001e4        0x0 c:/winavr-20090313/bin/../lib/gcc/avr/4.3.2/avr51\libgcc.a(_prologue.o)
+ .bss           0x008001e4        0x0 c:/winavr-20090313/bin/../lib/gcc/avr/4.3.2/avr51\libgcc.a(_epilogue.o)
+ *(.bss*)
+ *(COMMON)
+ COMMON         0x008001e4       0x4a main.o
+                0x008001e4                ConfigMsg
+                0x00800216                NetworkParam
+ COMMON         0x0080022e      0x100 netloading.o
+                0x0080022e                FLASH_BUF
+ COMMON         0x0080032e       0x12 socket.o
+                0x0080032e                check_sendok_flag
+                0x00800336                first_send_flag
+                0x0080033e                local_port
+ COMMON         0x00800340       0x48 w5300.o
+                0x00800340                SOCK_INT
+                0x00800348                RXMEM_SIZE
+                0x00800368                TXMEM_SIZE
+ COMMON         0x00800388        0x6 c:/winavr-20090313/bin/../lib/gcc/avr/4.3.2/../../../../avr/lib/avr51\libc.a(iob.o)
+                0x00800388                __iob
+                0x0080038e                PROVIDE (__bss_end, .)
+                0x0001fe04                __data_load_start = LOADADDR (.data)
+                0x0001fed8                __data_load_end = (__data_load_start + SIZEOF (.data))
+
+.noinit         0x0080038e        0x0
+                0x0080038e                PROVIDE (__noinit_start, .)
+ *(.noinit*)
+                0x0080038e                PROVIDE (__noinit_end, .)
+                0x0080038e                _end = .
+                0x0080038e                PROVIDE (__heap_start, .)
+
+.eeprom         0x00810000        0x0
+ *(.eeprom*)
+                0x00810000                __eeprom_end = .
+
+.fuse
+ *(.fuse)
+ *(.lfuse)
+ *(.hfuse)
+ *(.efuse)
+
+.lock
+ *(.lock*)
+
+.signature
+ *(.signature*)
+
+.stab
+ *(.stab)
+
+.stabstr
+ *(.stabstr)
+
+.stab.excl
+ *(.stab.excl)
+
+.stab.exclstr
+ *(.stab.exclstr)
+
+.stab.index
+ *(.stab.index)
+
+.stab.indexstr
+ *(.stab.indexstr)
+
+.comment
+ *(.comment)
+
+.debug
+ *(.debug)
+
+.line
+ *(.line)
+
+.debug_srcinfo
+ *(.debug_srcinfo)
+
+.debug_sfnames
+ *(.debug_sfnames)
+
+.debug_aranges  0x00000000       0xc0
+ *(.debug_aranges)
+ .debug_aranges
+                0x00000000       0x20 delay.o
+ .debug_aranges
+                0x00000020       0x20 main.o
+ .debug_aranges
+                0x00000040       0x20 netloading.o
+ .debug_aranges
+                0x00000060       0x20 socket.o
+ .debug_aranges
+                0x00000080       0x20 serial.o
+ .debug_aranges
+                0x000000a0       0x20 w5300.o
+
+.debug_pubnames
+                0x00000000      0x62f
+ *(.debug_pubnames)
+ .debug_pubnames
+                0x00000000       0x3a delay.o
+ .debug_pubnames
+                0x0000003a       0x55 main.o
+ .debug_pubnames
+                0x0000008f       0x36 netloading.o
+ .debug_pubnames
+                0x000000c5       0xc9 socket.o
+ .debug_pubnames
+                0x0000018e       0x4a serial.o
+ .debug_pubnames
+                0x000001d8      0x457 w5300.o
+
+.debug_info     0x00000000     0x29e8
+ *(.debug_info)
+ .debug_info    0x00000000      0x13f delay.o
+ .debug_info    0x0000013f      0x325 main.o
+ .debug_info    0x00000464      0x23a netloading.o
+ .debug_info    0x0000069e      0x4cb socket.o
+ .debug_info    0x00000b69      0x1fd serial.o
+ .debug_info    0x00000d66     0x1c82 w5300.o
+ *(.gnu.linkonce.wi.*)
+
+.debug_abbrev   0x00000000      0x93a
+ *(.debug_abbrev)
+ .debug_abbrev  0x00000000       0xce delay.o
+ .debug_abbrev  0x000000ce      0x1b7 main.o
+ .debug_abbrev  0x00000285      0x159 netloading.o
+ .debug_abbrev  0x000003de      0x16e socket.o
+ .debug_abbrev  0x0000054c      0x150 serial.o
+ .debug_abbrev  0x0000069c      0x29e w5300.o
+
+.debug_line     0x00000000     0x19df
+ *(.debug_line)
+ .debug_line    0x00000000       0xc7 delay.o
+ .debug_line    0x000000c7      0x25e main.o
+ .debug_line    0x00000325      0x223 netloading.o
+ .debug_line    0x00000548      0x438 socket.o
+ .debug_line    0x00000980      0x1a9 serial.o
+ .debug_line    0x00000b29      0xeb6 w5300.o
+
+.debug_frame    0x00000000      0x670
+ *(.debug_frame)
+ .debug_frame   0x00000000       0x40 delay.o
+ .debug_frame   0x00000040       0x50 main.o
+ .debug_frame   0x00000090       0x40 netloading.o
+ .debug_frame   0x000000d0       0xb0 socket.o
+ .debug_frame   0x00000180       0x50 serial.o
+ .debug_frame   0x000001d0      0x4a0 w5300.o
+
+.debug_str      0x00000000      0x6cf
+ *(.debug_str)
+ .debug_str     0x00000000       0x9b delay.o
+                                 0xd4 (size before relaxing)
+ .debug_str     0x0000009b       0xd3 main.o
+                                0x199 (size before relaxing)
+ .debug_str     0x0000016e       0xab netloading.o
+                                0x15d (size before relaxing)
+ .debug_str     0x00000219       0xbd socket.o
+                                0x193 (size before relaxing)
+ .debug_str     0x000002d6       0x39 serial.o
+                                 0xfc (size before relaxing)
+ .debug_str     0x0000030f      0x3c0 w5300.o
+                                0x4b1 (size before relaxing)
+
+.debug_loc      0x00000000     0x1359
+ *(.debug_loc)
+ .debug_loc     0x00000000       0x2b main.o
+ .debug_loc     0x0000002b      0x221 netloading.o
+ .debug_loc     0x0000024c      0x87d socket.o
+ .debug_loc     0x00000ac9       0xad serial.o
+ .debug_loc     0x00000b76      0x7e3 w5300.o
+
+.debug_macinfo
+ *(.debug_macinfo)
+OUTPUT(Boot.elf elf32-avr)
+LOAD linker stubs
+
+.debug_ranges   0x00000000      0x150
+ .debug_ranges  0x00000000       0x30 delay.o
+ .debug_ranges  0x00000030       0x60 serial.o
+ .debug_ranges  0x00000090       0xc0 w5300.o

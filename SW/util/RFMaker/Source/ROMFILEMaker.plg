@@ -1,0 +1,41 @@
+<html>
+<body>
+<pre>
+<h1>Build Log</h1>
+<h3>
+--------------------Configuration: ROMFILEMaker - Win32 Release--------------------
+</h3>
+<h3>Command Lines</h3>
+Creating command line "rc.exe /l 0x412 /fo"Release/ROMFILEMaker.res" /d "NDEBUG" "D:\work\wiznetwork\RFMaker\Source\ROMFILEMaker.rc"" 
+Creating temporary file "C:\DOCUME~1\MyHome\LOCALS~1\Temp\RSP123.tmp" with contents
+[
+/nologo /MT /W3 /GX /O2 /D "WIN32" /D "NDEBUG" /D "_WINDOWS" /D "_MBCS" /Fp"Release/ROMFILEMaker.pch" /Yu"stdafx.h" /Fo"Release/" /Fd"Release/" /FD /c 
+"D:\work\wiznetwork\RFMaker\Source\ROMFILEMaker.cpp"
+"D:\work\wiznetwork\RFMaker\Source\ROMFILEMakerDlg.cpp"
+]
+Creating command line "cl.exe @C:\DOCUME~1\MyHome\LOCALS~1\Temp\RSP123.tmp" 
+Creating temporary file "C:\DOCUME~1\MyHome\LOCALS~1\Temp\RSP124.tmp" with contents
+[
+/nologo /MT /W3 /GX /O2 /D "WIN32" /D "NDEBUG" /D "_WINDOWS" /D "_MBCS" /Fp"Release/ROMFILEMaker.pch" /Yc"stdafx.h" /Fo"Release/" /Fd"Release/" /FD /c 
+"D:\work\wiznetwork\RFMaker\Source\StdAfx.cpp"
+]
+Creating command line "cl.exe @C:\DOCUME~1\MyHome\LOCALS~1\Temp\RSP124.tmp" 
+Creating command line "link.exe ws2_32.lib. /nologo /subsystem:windows /incremental:no /pdb:"Release/ROMFILEMaker.pdb" /machine:I386 /out:"Release/ROMFILEMaker.exe"  .\Release\ROMFILEMaker.obj .\Release\ROMFILEMakerDlg.obj .\Release\StdAfx.obj .\Release\ROMFILEMaker.res "
+<h3>Output Window</h3>
+Compiling resources...
+Compiling...
+StdAfx.cpp
+Compiling...
+ROMFILEMaker.cpp
+ROMFILEMakerDlg.cpp
+Generating Code...
+Linking...
+LINK : warning LNK4089: all references to "SHELL32.dll" discarded by /OPT:REF
+
+
+
+<h3>Results</h3>
+ROMFILEMaker.exe - 0 error(s), 1 warning(s)
+</pre>
+</body>
+</html>

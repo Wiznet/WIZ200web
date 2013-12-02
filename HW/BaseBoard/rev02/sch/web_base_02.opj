@@ -1,0 +1,37 @@
+(ExpressProject ""
+  (ProjectVersion "19981106")
+  (ProjectType "PCB")
+  (Folder "Design Resources"
+    (Folder "Library")
+    (File ".\web_base_02.dsn"
+      (Type "Schematic Design"))
+    (BuildFileAddedOrDeleted "x")
+    (CompileFileAddedOrDeleted "x")
+    (NoModify))
+  (Folder "Outputs")
+  (Folder "Referenced Projects")
+  (PartMRUSelector)
+  (GlobalState
+    (FileView
+      (Path "Design Resources")
+      (Path "Design Resources" ".\web_base_02.dsn")
+      (Path "Design Resources" ".\web_base_02.dsn" "SCHEMATIC1")
+      (Select "Design Resources" ".\web_base_02.dsn" "SCHEMATIC1" "Webserver"))
+    (HierarchyView)
+    (Doc
+      (Type "COrCapturePMDoc")
+      (Frame
+        (Placement "44 0 1 -1 -1 -4 -30 -5 221 24 418"))
+      (Tab 0))
+    (Doc
+      (Type "COrSchematicDoc")
+      (Frame
+        (Placement "44 0 1 -1 -1 -4 -30 55 1111 408 1039")
+        (Scroll "31 967")
+        (Zoom "124")
+        (Occurrence "/"))
+      (Path
+         "Z:\PRODUCT\TECHDATA\WIZ200WEB\HW\BASEBOARD\REV02\SCH\WEB_BASE_02.DSN")
+      (Schematic "SCHEMATIC1")
+      (Page "Webserver")))
+  (MPSSessionName "HCCOM"))

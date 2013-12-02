@@ -1,0 +1,40 @@
+(ExpressProject ""
+  (ProjectVersion "19981106")
+  (ProjectType "PCB")
+  (Folder "Design Resources"
+    (Folder "Library")
+    (File ".\wiz-embedded_webserver.dsn"
+      (Type "Schematic Design"))
+    (BuildFileAddedOrDeleted "x")
+    (CompileFileAddedOrDeleted "x")
+    (NoModify)
+    (BOM_Scope "0")
+    (BOM_Mode "0")
+    (BOM_Report_File
+       "D:\WORK\MYDESIGN\2008\WIZNET\EMBEDDEDWEBSERVER\PCB\WIZ-EMBEDDED_WEBSERVER\WIZ-EMBEDDED_WEBSERVER.BOM")
+    (BOM_Merge_Include "FALSE")
+    (BOM_Property_Combine_7.0 "{Item}\t{Quantity}\t{Reference}\t{Value}")
+    (BOM_Header "Item\tQuantity\tReference\tPart")
+    (BOM_Include_File
+       "D:\WORK\MYDESIGN\2008\WIZNET\EMBEDDEDWEBSERVER\PCB\WIZ-EMBEDDED_WEBSERVER\WIZ-EMBEDDED_WEBSERVER.INC")
+    (BOM_Include_File_Combine_7.0 "{Item}\t{Quantity}\t{Reference}\t{Value}")
+    (BOM_One_Part_Per_Line "FALSE")
+    (Open_BOM_in_Excel "TRUE")
+    (BOM_View_Output "FALSE"))
+  (Folder "Outputs"
+    (File ".\wiz-embedded_webserver.bom"
+      (Type "Report")))
+  (Folder "Referenced Projects")
+  (PartMRUSelector)
+  (GlobalState
+    (FileView
+      (Path "Design Resources")
+      (Path "Design Resources" ".\wiz-embedded_webserver.dsn")
+      (Path "Design Resources" ".\wiz-embedded_webserver.dsn" "SCHEMATIC1")
+      (Path "Outputs"))
+    (HierarchyView)
+    (Doc
+      (Type "COrCapturePMDoc")
+      (Frame
+        (Placement "44 2 3 -1 -1 -8 -30 231 431 30 594"))
+      (Tab 0))))

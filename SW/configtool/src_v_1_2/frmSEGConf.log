@@ -1,0 +1,65 @@
+136 행: WinsockDirect 컨트롤의 MSWinsockLib.Winsock 클래스는 로드한 컨트롤 클래스가 아닙니다.
+148 행: StatusBar1 컨트롤의 MSComctlLib.StatusBar 클래스는 로드한 컨트롤 클래스가 아닙니다.
+187 행: imlListView 컨트롤의 MSComctlLib.ImageList 클래스는 로드한 컨트롤 클래스가 아닙니다.
+205 행: OpenLog 컨트롤의 MSComDlg.CommonDialog 클래스는 로드한 컨트롤 클래스가 아닙니다.
+388 행: ProgressFile 컨트롤의 MSComctlLib.ProgressBar 클래스는 로드한 컨트롤 클래스가 아닙니다.
+402 행: Toolbar1 컨트롤의 MSComctlLib.Toolbar 클래스는 로드한 컨트롤 클래스가 아닙니다.
+445 행: imlToolbarIcons 컨트롤의 MSComctlLib.ImageList 클래스는 로드한 컨트롤 클래스가 아닙니다.
+475 행: WinsockUDP 컨트롤의 MSWinsockLib.Winsock 클래스는 로드한 컨트롤 클래스가 아닙니다.
+483 행: ListBoards 컨트롤의 MSComctlLib.ListView 클래스는 로드한 컨트롤 클래스가 아닙니다.
+514 행: winsockUP 컨트롤의 MSWinsockLib.Winsock 클래스는 로드한 컨트롤 클래스가 아닙니다.
+139 행: WinsockDirect의 _ExtentX 속성 이름이 잘못되었습니다. 
+140 행: WinsockDirect의 _ExtentY 속성 이름이 잘못되었습니다. 
+141 행: WinsockDirect의 _Version 속성 이름이 잘못되었습니다. 
+155 행: StatusBar1의 _ExtentX 속성 이름이 잘못되었습니다. 
+156 행: StatusBar1의 _ExtentY 속성 이름이 잘못되었습니다. 
+157 행: StatusBar1의 _Version 속성 이름이 잘못되었습니다. 
+176 행: StatusBar1의 Panels 속성 이름이 잘못되었습니다. 
+190 행: imlListView의 _ExtentX 속성 이름이 잘못되었습니다. 
+191 행: imlListView의 _ExtentY 속성 이름이 잘못되었습니다. 
+193 행: imlListView의 ImageWidth 속성 이름이 잘못되었습니다. 
+194 행: imlListView의 ImageHeight 속성 이름이 잘못되었습니다. 
+195 행: imlListView의 MaskColor 속성 이름이 잘못되었습니다. 
+196 행: imlListView의 _Version 속성 이름이 잘못되었습니다. 
+203 행: imlListView의 Images 속성 이름이 잘못되었습니다. 
+208 행: OpenLog의 _ExtentX 속성 이름이 잘못되었습니다. 
+209 행: OpenLog의 _ExtentY 속성 이름이 잘못되었습니다. 
+210 행: OpenLog의 _Version 속성 이름이 잘못되었습니다. 
+395 행: ProgressFile의 _ExtentX 속성 이름이 잘못되었습니다. 
+396 행: ProgressFile의 _ExtentY 속성 이름이 잘못되었습니다. 
+397 행: ProgressFile의 _Version 속성 이름이 잘못되었습니다. 
+399 행: ProgressFile의 Scrolling 속성 이름이 잘못되었습니다. 
+408 행: Toolbar1의 _ExtentX 속성 이름이 잘못되었습니다. 
+409 행: Toolbar1의 _ExtentY 속성 이름이 잘못되었습니다. 
+410 행: Toolbar1의 ButtonWidth 속성 이름이 잘못되었습니다. 
+411 행: Toolbar1의 ButtonHeight 속성 이름이 잘못되었습니다. 
+412 행: Toolbar1의 AllowCustomize 속성 이름이 잘못되었습니다. 
+413 행: Toolbar1의 Style 속성 이름이 잘못되었습니다. 
+414 행: Toolbar1의 ImageList 속성 이름이 잘못되었습니다. 
+415 행: Toolbar1의 _Version 속성 이름이 잘못되었습니다. 
+442 행: Toolbar1의 Buttons 속성 이름이 잘못되었습니다. 
+448 행: imlToolbarIcons의 _ExtentX 속성 이름이 잘못되었습니다. 
+449 행: imlToolbarIcons의 _ExtentY 속성 이름이 잘못되었습니다. 
+451 행: imlToolbarIcons의 ImageWidth 속성 이름이 잘못되었습니다. 
+452 행: imlToolbarIcons의 ImageHeight 속성 이름이 잘못되었습니다. 
+453 행: imlToolbarIcons의 MaskColor 속성 이름이 잘못되었습니다. 
+454 행: imlToolbarIcons의 _Version 속성 이름이 잘못되었습니다. 
+473 행: imlToolbarIcons의 Images 속성 이름이 잘못되었습니다. 
+478 행: WinsockUDP의 _ExtentX 속성 이름이 잘못되었습니다. 
+479 행: WinsockUDP의 _ExtentY 속성 이름이 잘못되었습니다. 
+480 행: WinsockUDP의 _Version 속성 이름이 잘못되었습니다. 
+481 행: WinsockUDP의 Protocol 속성 이름이 잘못되었습니다. 
+489 행: ListBoards의 _ExtentX 속성 이름이 잘못되었습니다. 
+490 행: ListBoards의 _ExtentY 속성 이름이 잘못되었습니다. 
+491 행: ListBoards의 View 속성 이름이 잘못되었습니다. 
+492 행: ListBoards의 LabelEdit 속성 이름이 잘못되었습니다. 
+493 행: ListBoards의 LabelWrap 속성 이름이 잘못되었습니다. 
+494 행: ListBoards의 HideSelection 속성 이름이 잘못되었습니다. 
+495 행: ListBoards의 FlatScrollBar 속성 이름이 잘못되었습니다. 
+496 행: ListBoards의 FullRowSelect 속성 이름이 잘못되었습니다. 
+497 행: ListBoards의 _Version 속성 이름이 잘못되었습니다. 
+498 행: ListBoards의 SmallIcons 속성 이름이 잘못되었습니다. 
+512 행: ListBoards의 NumItems 속성 이름이 잘못되었습니다. 
+517 행: winsockUP의 _ExtentX 속성 이름이 잘못되었습니다. 
+518 행: winsockUP의 _ExtentY 속성 이름이 잘못되었습니다. 
+519 행: winsockUP의 _Version 속성 이름이 잘못되었습니다. 
